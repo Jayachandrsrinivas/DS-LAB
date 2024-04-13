@@ -1,7 +1,7 @@
 /*C Program that implements Bubble sort */
 #include<stdio.h>
 void bubblesort (int[], int);
-void main()
+int main()
 {
     int a[50], i, n;
     printf("Enter n:");
