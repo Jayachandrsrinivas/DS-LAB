@@ -22,21 +22,19 @@ int main()
 
 int search(int a[],int n,int key)
 {
-    int i,pos=-1;
+    int i;
     for(i=0;i<n;i++)
     {
         if(a[i]==key)
-        {
-            pos=i;
-            break;
-        }
+        return i;
     }
-    if(pos==-1)
-    {
-        return 0;
-    }
-    else
-    {
-        return pos;
-    }
-}
+        return -1;
+ }
+    
+
+        
+    
+    
+    
+
+
