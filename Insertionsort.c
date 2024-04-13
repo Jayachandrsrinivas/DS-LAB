@@ -1,7 +1,7 @@
 /*C Program to perform Insertion Sort */
 #include<stdio.h>
 void insertionsort (int[], int);
-void main()
+int main()
 {
     int a[50], i, n;
     printf("Enter n:");
