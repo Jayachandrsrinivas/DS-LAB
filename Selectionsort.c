@@ -1,7 +1,7 @@
 /*C Program that implements Selection Sort */
 #include<stdio.h>
 void selectionsort (int[], int);
-void main()
+int main()
 {
     int a[50], i, n;
     printf("Enter n:");
